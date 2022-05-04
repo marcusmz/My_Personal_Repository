@@ -41,7 +41,7 @@ console.log(bev1.brandName);
 console.log(bev1['datesOfPreviousSips']);
 console.log(beverages[0].type); */
 
--- Mini Exercise 2
+// -- Mini Exercise 2
 
 var users = [
     {
@@ -58,18 +58,18 @@ var users = [
     }
 ];
 
-1. Log the names of all users in a single console log
-separated by spaces. // output = "Sam Cathy Karen"
+// 1. Log the names of all users in a single console log
+// separated by spaces. // output = "Sam Cathy Karen"
 
 var output = '';
-users.forEach(function(user)); {
+users.forEach(function(user) {
     output += user.givenName + " ";
-}
+});
 console.log(output.trim());
 
 
 
-2. Change the names of all users to "John Doe"
+// 2. Change the names of all users to "John Doe"
 
 users.forEach(function(user){
     user.givenName = "John Doe";
@@ -77,7 +77,7 @@ users.forEach(function(user){
 
 console.log(users);
 
-3. Increase the current age of all users by 1
+// 3. Increase the current age of all users by 1
 
 users[0].age += 1;
 users[1].age += 1;
@@ -85,6 +85,6 @@ users[2].age += 1;
 
 //or
 
-for (var i = 0; i < users.legnth; i++); {
+for (var i = 0; i < users.length; i++); {
     users[1].age += 1;
 }
